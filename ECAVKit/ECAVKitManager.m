@@ -223,6 +223,10 @@ NSString *_getTimeStringValue(CMTime time) {
     [_player pause];
     _state = ECAVPlayerStatusStopped;
     [self _postPlayStateChanged:_state];
+    
+    /*
+     尝试过在这里将currentItem 替换为nil，结果会导致播放下个文件时，item的播放状态不能够被正确监听到。
+    */
 }
 
 -(void)seekToPossion:(CGFloat)possion{
