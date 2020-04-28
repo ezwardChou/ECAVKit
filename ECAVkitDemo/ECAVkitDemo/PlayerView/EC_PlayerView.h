@@ -5,7 +5,7 @@
 //  Created by Chou Edward  on 2019/10/8.
 //  Copyright © 2019 Chou Edward . All rights reserved.
 //
-#define PLAY_URL @"http://test360drm.oss-cn-shanghai.aliyuncs.com/record/live1/1_558_1271/1_558_1271.m3u8?OSSAccessKeyId=LTAIOPhqgY7Bwmtw&Expires=1571474963&Signature=CCGrb0lxEeagEzSUwbWE5BxSYDE%3D"
+#define PLAY_URL @""
 #import <UIKit/UIKit.h>
 
 #import "Masonry.h"
